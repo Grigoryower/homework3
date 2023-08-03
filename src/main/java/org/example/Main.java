@@ -105,7 +105,7 @@ public class Main {
      int kg = 1000;
      float weightKg = totalWeight /(float)kg;
      System.out.println( "Всего " + weightKg + " кг. всего  "+ totalWeight + " грамм" );
-     System.out.println(" Я так и непонял как с молоком быть вообще. А точней как сделать правильную формулу?");
+     System.out.println(" Я так и непонял  как с молоком быть вообще. А точней как сделать правильную формулу?");
 
     }public static void task7() {
         System.out.println("Задача 7");
