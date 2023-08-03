@@ -105,7 +105,7 @@ public class Main {
      int kg = 1000;
      float weightKg = totalWeight /(float)kg;
      System.out.println( "Всего " + weightKg + " кг. всего  "+ totalWeight + " грамм" );
-     System.out.println(" Я так и непонял как с молоком быть вообще. А точней как сделать так чтоб 200 /2 =100мл = 105г");
+     System.out.println(" Я так и непонял как с молоком быть вообще. А точней как сделать правильную формулу?");
 
     }public static void task7() {
         System.out.println("Задача 7");
@@ -161,6 +161,7 @@ public class Main {
     float day13b = bkg + day12b;
     float day14b = bkg + day13b;
     System.out.println("Что бы сбросить " + day14b + " При " + b + " граммах понадобиться 14 дней");
+    System.out.println("Меня терзает смтуные сомненья что это действительно именно так надо было сделать");
     }
     public static void task8() {
         System.out.println("Задача 8");
@@ -188,7 +189,7 @@ public class Main {
     int razYearIncomeKristina =poYearKristina4 - doYearKristina3;
     System.out.println("Кристина теперь получает " + kristina2 + " рублей.Годовой доход вырос на "+ razYearIncomeKristina+ " кредитов.");
 
-
+System.out.println("Ну этот же квест не мог быть таким легким ?");
     }
 
 
