@@ -89,23 +89,22 @@ public class Main {
         System.out.println("Задача 6");
      byte bananas = 5  ;
      short milc = 200 ;
+     short milc1 = 100;
      byte iceCream = 2 ;
      byte rawEggs = 4 ;
      byte milcgr = 105 ;
      byte oneBananas = 80;
-     int oneMilc;
-     oneMilc= milc  = (short) (milcgr * 2);
+     int milc2 = milc / milc1;
      byte oneIceCream =100;
      byte oneRawEggs = 70;
      int weightBananas = bananas * oneBananas;
-     int  weightMilc = oneMilc ;
+     int weightMilc = milcgr * milc2 ;
      int weightIceCream = iceCream * oneIceCream;
      int weightRawEggs = rawEggs *oneRawEggs;
      int totalWeight = weightBananas + weightMilc +weightIceCream + weightRawEggs ;
      int kg = 1000;
      float weightKg = totalWeight /(float)kg;
      System.out.println( "Всего " + weightKg + " кг. всего  "+ totalWeight + " грамм" );
-     System.out.println(" Я так и непонял как с молоком быть вообще. А точней как сделать так чтоб 200 /2 =100мл = 105г");
 
     }public static void task7() {
         System.out.println("Задача 7");
@@ -115,52 +114,12 @@ public class Main {
     int kg = 1000;
     float akg= a /(float)kg;
     float bkg= b /(float)kg;
-    System.out.println(akg);
-    System.out.println(bkg);
-    float day1 = akg;
-    float day2 = akg + day1;
-    float day3 = akg + day2;
-    float day4 = akg + day3;
-    float day5 = akg + day4;
-    float day6 = akg + day5;
-    float day7 = akg + day6;
-    float day8 = akg + day7;
-    float day9 = akg + day8;
-    float day10 = akg + day9;
-    float day11 = akg + day10;
-    float day12 = akg + day11;
-    float day13 = akg + day12;
-    float day14 = akg + day13;
-    float day15 = akg + day14;
-    float day16 = akg + day15;
-    float day17 = akg + day16;
-    float day18 = akg + day17;
-    float day19 = akg + day18;
-    float day20 = akg + day19;
-    float day21 = akg + day20;
-    float day22 = akg + day21;
-    float day23 = akg + day22;
-    float day24 = akg + day23;
-    float day25 = akg + day24;
-    float day26 = akg + day25;
-    float day27 = akg + day26;
-    float day28 = akg + day27;
-    System.out.println("Что бы сбросить " +day28 + " При " + a + " граммах понадобиться 28 дней");
-    float day1b = bkg;
-    float day2b = bkg + day1b;
-    float day3b = bkg + day2b;
-    float day4b = bkg + day3b;
-    float day5b = bkg + day4b;
-    float day6b = bkg + day5b;
-    float day7b = bkg + day6b;
-    float day8b = bkg + day7b;
-    float day9b = bkg + day8b;
-    float day10b = bkg + day9b;
-    float day11b = bkg + day10b;
-    float day12b = bkg + day11b;
-    float day13b = bkg + day12b;
-    float day14b = bkg + day13b;
-    System.out.println("Что бы сбросить " + day14b + " При " + b + " граммах понадобиться 14 дней");
+    float a1= sbros / akg;
+    float b1 = sbros / bkg;
+
+    System.out.println("Если спроцмен будет терять по " + a + " грамм в день. Ему понадобиться " + a1 + " дней. Что бы сбросить "+ sbros + "кг");
+    System.out.println("Если спроцмен будет терять по " + b + " грамм в день. Ему понадобиться " + b1 + " дней. Что бы сбросить "+ sbros + "кг");
+
     }
     public static void task8() {
         System.out.println("Задача 8");
@@ -188,7 +147,7 @@ public class Main {
     int razYearIncomeKristina =poYearKristina4 - doYearKristina3;
     System.out.println("Кристина теперь получает " + kristina2 + " рублей.Годовой доход вырос на "+ razYearIncomeKristina+ " кредитов.");
 
-
+System.out.println("Спасибо за ответ. Просто делал домашку после почти 14 часов работы тупил страшно. Проснулся посмотрел что наделал сразу пределал но тк на работу было уже надо скидываю сейчас.");
     }
 
 
